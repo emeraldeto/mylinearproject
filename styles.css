@@ -242,9 +242,89 @@ body{
    color: hotpink;
 }
 
+.form{
+    color: white;
+    font-size: 23px;
+    padding: 20px 30px;
+    border: 2px double white;
+}
 
+.form input{
+    border-radius: 6px;
+    height: 20px;
+    color: black;
 
+}
 
+.form button{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border-radius: 9px;
+    height: 60px;
+}
 
+.form button:hover{
+    font-size: 20px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 500;
+    background-color: white;
+    color: blue;
+    border-radius: 9px;
+    transition: 0.1s linear;
+    transition-delay: 0.1;
 
+}
+
+footer{
+    display: flex;
+    justify-content: space-between;
+    font-size: 18px;
+    color: white;
+    padding: 20px 35px;
+    align-items: center;
+}
+
+footer a:hover{
+    font-size: 20px;
+    background-color: white;
+    color: blue;
+    border-radius: 9px;
+    height: 80px;
+    width: 20px;
+    transition: 0.1s linear;
+    transition-delay: 0.1;
+}
+
+.foot1 li{
+    list-style: none;
+}
+
+.foot1 a{
+    text-decoration: none;
+    column-gap: 30px;
+    color: white;
+}
+
+.foot2 li{
+    list-style: none;
+}
+
+.foot2 a{
+    text-decoration: none;
+    column-gap: 30px;
+    color: white;
+}
+
+.foot3 li{
+    list-style: none;
+}
+
+.foot3 a{
+    text-decoration: none;
+    column-gap: 30px;
+    color: white;
+}
 
