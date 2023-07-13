@@ -1,7 +1,7 @@
 body{
     padding: 0px;
     margin: 0px;
-    background-image: url(./istockphoto-1206800961-612x612.jpg);
+    background-image: url(./conceptual-background-web-technology_79451-382.avif);
     background-repeat:no-repeat;
     background-size: cover;
     color: #080808;
@@ -327,4 +327,6 @@ footer a:hover{
     column-gap: 30px;
     color: white;
 }
+
+
 
