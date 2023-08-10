@@ -1,0 +1,112 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial;
+    background: linear-gradient(rgba(0, 0, 0, 0.686)50%,rgba(0, 0, 0, 0.662)50%),url(./conceptual-background-web-technology_79451-382.avif);
+    background-repeat: none;
+    background-position: center;
+    background-size: cover;
+    backdrop-filter: blur(2px);
+}
+
+.myform{
+    position: relative;
+    top: 100px;
+    left: 450px;
+    background: rgba(125, 125, 125, 0.334);
+    width: 550px;
+    height: 450px;
+    border-radius: 10px;
+    box-shadow: 1px 2px 10px rgba(125, 125, 125, 0.334);
+    text-align: center;
+}
+
+.form{
+    position: relative;
+    top: 60px;
+}
+
+
+.myform h1{
+    position: relative;
+    font-size: 40px;
+    width: 300px;
+    background: transparent;
+    color: whitesmoke;
+    left: 110px;
+    border-radius: 8px;
+    border: 2px solid black;
+
+}
+
+.myform input{
+    position: inherit;
+    font-size:20px;
+    outline: none;
+    overflow: hidden;
+    background: transparent;
+    margin-top: 30px;
+    border-radius: 9px;
+    width: 450px;
+    height: 30px;
+    border: 2px white solid;
+    color: white;
+}
+
+.myform input::placeholder{
+    color: white;
+    font-size: 20px;
+    background: transparent;
+}
+
+.submit{
+    position: relative;
+    color: white;
+    background: transparent;
+    font-size: 25px;
+    width: 300px;
+    height: 45px;
+    top: 20px;
+    border-radius: 8px;
+    border: 2px solid white;
+    overflow: hidden;
+    cursor: pointer;
+}
+
+
+.submit:hover{
+    position: relative;
+    color:white;
+    background: rgba(0, 0, 0, 0.603);
+    width: 300px;
+    height: 45px;
+    top: 20px;
+    border-radius: 8px;
+    border: 1px solid white;
+    transition: all 0.2s ease-in-out;
+}
+
+.icons{
+    position: relative;
+    right: 55px;
+    top: 8px;
+    font-size: 20px;
+    color: white;
+    width: 45px;
+    height: 30px;
+    border-radius: 4px;
+
+    background: rgba(92, 84, 84, 0.47);
+}
+
+.myform p{
+    position: relative;
+    top: 20px;
+    font-size: 25px;
+    color: white;
+    font-family: sans-serif;
+}
+
+.myform p a{
+    color: white;
+}

@@ -27,8 +27,8 @@
         <option><a href="#">ESP</a></option>
         <option><a href="#">YOR</a></option>
     </select>
-        <button class="inner">Sign-In</button>
-        <button class="upper">Sign-Up</button>  
+        <a class="inner" href="login.html"> Sign-In</a>
+        <a class="upper">Sign-Up</a>  
 </div>
     </div>
 
@@ -39,6 +39,7 @@
     <section>
         <div class="wel">
         <h2>World Of Endless Possibilities!</h2>
+        <video src="./VID-20230810-WA0015.mp4" autoplay loop></video>
         <p>We Are Group of Professional Techies In Different branches of Technological Field! </br> LINEAR Inc. has come to STAY!</p>
     </div>
 
@@ -89,13 +90,13 @@
     <div class="form">
 <form>
     <label for="name">Enter Your First Name: </label> <br>
-    <input type="text" id="name"> <br>
+    <input type="text" id="name" required> <br>
     <label for="secondname">Enter Your Second Name: </label> <br>
-    <input type="text" id="secondname"> <br>
+    <input type="text" id="secondname" required> <br>
     <label for="number">Enter Your Mobile number: </label> <br>
-    <input type="text" id="number"> <br>
-    <label for="mail">Enter Your Email: </label> <br>
-    <input type="email" id="mail"> <br>
+    <input type="text" id="number" required> <br>
+    <label for="mail" >Enter Your Email: </label> <br>
+    <input type="email" id="mail" required> <br>
     <label for="sex">State Your Gender: </label> <br>
     <select>
         <option>Please Select: </option>
@@ -104,14 +105,14 @@
     <option>Rather Not Say</option>
     </select> <br>
     <label for="nationality">Enter Your Nationality: </label> <br>
-    <input type="location" id="secondname"> <br>
+    <input type="location" id="secondname" required> <br>
     <label for="mail">Do You Agree To Receive Our Daily NewsLetter?(Select only one choice)</label>
-    <input type="radio">
+    <input type="radio" required>
     <label for="yes">YES</label>
-    <input type="radio">
+    <input type="radio" required>
     <label for="no">NO</label>
 </form>
-<button> Click Here To Subscribe</button>
+<button type="submit"> Click Here To Subscribe</button>
 </div>
 
     </section>
